@@ -6,7 +6,7 @@ while x == 0:
     newword = []
     print "Welcome to BEAVER CIDER!"
     ecordc = raw_input("Would you like to:\na) ENCRYPT\nb) DECRYPT? ").lower()
-    word = str(raw_input("Would you like to", ecordc,"\na) TEXT FILE\nb) CSV FILE\nc) Words, sentences or phrases"))
+    word = str(raw_input("Would you like to convert:\na) TEXT FILE\nb) CUSTOM INPUT"))
     shift = raw_input("Would you like to shift by:\na) PI \nb) YOUR OWN CHOICE ").lower()
    
     if shift == "a":
@@ -45,7 +45,7 @@ while x == 0:
 
 
 
-                    file_ = raw_input("Enter .txt file name.N:\.txt")
+        file_ = raw_input("Enter .txt file name.N:\.txt")
         f1 =open(file_, 'r')
         filedata = f1.read()
         f1.close()
