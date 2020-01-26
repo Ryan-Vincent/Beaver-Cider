@@ -1,5 +1,6 @@
 import math
 x = 0
+y = 0
 while x == 0:
     n = 0
     newword = []
